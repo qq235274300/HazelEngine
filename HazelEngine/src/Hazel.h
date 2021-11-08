@@ -2,6 +2,7 @@
 
 // 头文件方便Application导入
 
+#include <stdio.h>
 #include "Hazel/Application.h"
 
 #include "Hazel/EntryPoint.h"
