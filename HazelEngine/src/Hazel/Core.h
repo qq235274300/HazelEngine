@@ -11,3 +11,5 @@
 	#error HAZEL Only Support Window!
 
 #endif //  HAZEL_PLATFORM_WINDOW
+
+#define BIT(x) (1 << x)
