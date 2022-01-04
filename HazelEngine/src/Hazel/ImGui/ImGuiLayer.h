@@ -1,19 +1,20 @@
 #pragma once
-#include "Hazel/LayerStack.h"
+#include "Hazel/Layer.h"
 
 namespace Hazel {
 
-	class ImGuiLayer : public Layer
+	class HAZEL_API ImGuiLayer : public Layer
 	{
 	public:
 		ImGuiLayer();
-		~ImGuiLayer();
+		~ImGuiLayer(); 
 		
 		void OnAttach();
 		void OnDetach();
 		void OnUpdate();
 		void OnEvent(Event& event);
-	
+	private:
+		float m_time = 0.f;
 	};
 
 

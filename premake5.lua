@@ -14,7 +14,7 @@ outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 IncludeDir = {}
 IncludeDir["GLFW"] = "HazelEngine/vendor/GLFW/include"
 IncludeDir["Glad"] = "HazelEngine/vendor/Glad/include"
-IncludeDir["ImGui"] = "HazelEngine/vendor/imgui/include"
+IncludeDir["ImGui"] = "HazelEngine/vendor/imgui"
 
 include "HazelEngine/vendor/GLFW"
 include "HazelEngine/vendor/Glad"
