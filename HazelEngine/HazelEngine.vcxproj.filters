@@ -58,6 +58,9 @@
     <ClInclude Include="src\Hazel\Window.h">
       <Filter>Hazel</Filter>
     </ClInclude>
+    <ClInclude Include="src\Platform\OpenGL\ImGuiDefines.h">
+      <Filter>Platform\OpenGL</Filter>
+    </ClInclude>
     <ClInclude Include="src\Platform\OpenGL\ImGuiIOpenGLRender.h">
       <Filter>Platform\OpenGL</Filter>
     </ClInclude>
@@ -65,7 +68,6 @@
       <Filter>Platform\Windows</Filter>
     </ClInclude>
     <ClInclude Include="src\hzpch.h" />
-    <ClInclude Include="src\Platform\OpenGL\ImGuiDefines.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Hazel\Application.cpp">
